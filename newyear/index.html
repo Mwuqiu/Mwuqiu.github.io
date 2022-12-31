@@ -37,10 +37,10 @@
 
     <audio id="audioDom" src="https://download.kstore.space/download/2719/newyear/files/audio.mp3" preload="auto" loop="loop"></audio>
 
-    <div id="yhBtn" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff ; font-size:20px    ">
+    <!-- <div id="yhBtn" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff ; font-size:20px    ">
         <p>💥点击我💥</p>
         <img style="width:64px;margin-bottom:36px " src="files/boom.png">
-    </div>
+    </div> -->
 
     <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
         <svg xmlns="http://www.w3.org/2000/svg">
@@ -193,21 +193,21 @@
             $('.page_two').removeClass('hide');
         }
 
-        function start() {
-            let str = $("#text").html(); //"于我而言，你是最好且是唯一"
-            let str_ = ''
-            let i = 0
-            let content = document.getElementById('contents')
-            let timer = setInterval(() => {
-                if (str_.length < str.length) {
-                    str_ += str[i++]
-                    content.innerHTML = '<p>' + str_ + '<span class="xx" style="opacity: 1;    color: white;">∎</span></p>' //打印时加光标
-                } else {
-                    clearInterval(timer)
-                    content.innerHTML = '<p>' + str_ + '</p>'
-                }
-            }, 100)
-        }
+        // function start() {
+        //     let str = $("#text").html(); //"于我而言，你是最好且是唯一"
+        //     let str_ = ''
+        //     let i = 0
+        //     let content = document.getElementById('contents')
+        //     let timer = setInterval(() => {
+        //         if (str_.length < str.length) {
+        //             str_ += str[i++]
+        //             content.innerHTML = '<p>' + str_ + '<span class="xx" style="opacity: 1;    color: white;">∎</span></p>' //打印时加光标
+        //         } else {
+        //             clearInterval(timer)
+        //             content.innerHTML = '<p>' + str_ + '</p>'
+        //         }
+        //     }, 100)
+        // }
     </script><!--!‬‏‬‫‭‫‫‬‫‭‫‬‬‏‭‭‪‏‬‎‫‬‎‎-->
 
     <script>
